@@ -90,7 +90,7 @@ start=time.time()
 
 参考以下大佬的链接
 
-[小白CV手把手教你用YOLOv5训练自己的数据集（从Windows环境配置到模型部署）]: https://blog.csdn.net/weixin_44936889/article/details/110661862
+[1]【小白CV】手把手教你用YOLOv5训练自己的数据集（从Windows环境配置到模型部署）:https://blog.csdn.net/weixin_44936889/article/details/110661862
 
 训练好后放到 weights 文件夹下
 
