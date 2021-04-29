@@ -1,7 +1,12 @@
 # Yolov5-deepsort-driverDistracted-driving-behavior-detection
 基于深度学习的驾驶员分心驾驶行为预警系统
 
+## 项目预览
+![](https://github.com/JingyibySUTsoftware/Yolov5-deepsort-driverDistracted-driving-behavior-detection/raw/master/images/gif.gif"分心预警")
 
+
+
+![](https://github.com/JingyibySUTsoftware/Yolov5-deepsort-driverDistracted-driving-behavior-detection/raw/master/images/SharedScreenshot.jpg"疲劳预警")
 
 ## 项目快速使用
 
