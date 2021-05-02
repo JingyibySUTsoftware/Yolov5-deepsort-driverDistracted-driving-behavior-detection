@@ -108,7 +108,8 @@ start=time.time()
 >
 >遵循 GNU General Public License v3.0 协议，
 >标明目标检测部分来源：<https://github.com/ultralytics/yolov5/>
->deepsort检测器来源：https://github.com/Sharpiless/Yolov5-deepsort-inference
+>
+>deepsort检测器来源：<https://github.com/Sharpiless/Yolov5-deepsort-inference>
 
 
 
