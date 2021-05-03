@@ -1,3 +1,5 @@
+# yolo检测的接口函数
+# 详细信息请参考 https://blog.csdn.net/qq_20241587/article/details/113349874?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6.control
 
 import numpy as np
 import cv2
@@ -101,4 +103,8 @@ def predict(im0s):
                 prob = round(float(conf) * 100, 2)  # round 2
                 ret_i = [label, prob, xyxy]
                 ret.append(ret_i)
+    # 返回信息
+    # label 标签信息 'face' 'smoke' 'drink' 'phone'
+    # prob 为对应的置信度
+    # xyxy 为对应的位置信息（外框）
     return ret

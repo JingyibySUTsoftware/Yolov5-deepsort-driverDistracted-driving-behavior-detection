@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
-# import the necessary packages
+# 疲劳检测，检测眼睛和嘴巴的开合程度
+
 from scipy.spatial import distance as dist
 from imutils.video import FileVideoStream
 from imutils.video import VideoStream
@@ -80,16 +80,15 @@ def detfatigue(frame):
         cv2.drawContours(frame, [rightEyeHull], -1, (0, 255, 0), 1)
         mouthHull = cv2.convexHull(mouth)
         cv2.drawContours(frame, [mouthHull], -1, (0, 255, 0), 1)
-        # 进行画图操作，用矩形框标注人脸
-        # left = rect.left()
-        # top = rect.top()
-        # right = rect.right()
-        # bottom = rect.bottom()
-        # cv2.rectangle(frame, (left, top), (right, bottom), (0, 255, 0), 1)
+
         # 画出眼睛、嘴巴竖直线
         cv2.line(frame,tuple(shape[38]),tuple(shape[40]),(0, 255, 0), 1)
         cv2.line(frame,tuple(shape[43]),tuple(shape[47]),(0, 255, 0), 1)
         cv2.line(frame,tuple(shape[51]),tuple(shape[57]),(0, 255, 0), 1)
         cv2.line(frame,tuple(shape[48]),tuple(shape[54]),(0, 255, 0), 1)
 
+    # 返回信息
+    # frame已经标注出眼睛和嘴巴的框线
+    # eyeae为眼睛的长宽比
+    # mouthar为嘴巴的长宽比
     return(frame,eyear,mouthar)
