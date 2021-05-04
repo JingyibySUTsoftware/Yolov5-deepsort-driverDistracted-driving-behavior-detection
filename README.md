@@ -21,6 +21,8 @@
 
 直接运行main.py，即可使用本程序，具体效果可以观看演示视频。
 
+[bilibili在线观看](https://www.bilibili.com/video/BV1MK4y1d7a8/)
+
 各函数的信息，均在代码中写好了注释，如有疑问请联系1647790440@qq.com
 
 ## 致谢
