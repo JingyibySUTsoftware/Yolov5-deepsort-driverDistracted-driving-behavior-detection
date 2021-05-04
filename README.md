@@ -10,6 +10,9 @@
 ### 疲劳检测
 ![疲劳预警](images/SharedScreenshot.jpg?raw=true"疲劳预警")
 
+### 前端UI展示(未进行连接)
+![UI](images/UI.jpg?raw=true"UI")
+
 ## 项目快速使用
 
 在运行项目之前请安装好各种依赖
